@@ -10,7 +10,7 @@
   
   Trig to Arduino pin 13
   
-LCD Display (I used JHD162A) 
+# LCD Display (I used JHD162A) 
 
   VSS to Arduino GND
   
