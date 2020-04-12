@@ -20,8 +20,7 @@ LCD Display (I used JHD162A)
   DB7 to Arduino pin 5
   LED+ to Arduino 5V
   LED- to Arduino GND
-  
-Modified by Ahmed Djebali (June 1, 2015).
+ 
 */
 #include <LiquidCrystal.h> //Load Liquid Crystal Library
 LiquidCrystal LCD(11,10,9,2,3,4,5);  //Create Liquid Crystal Object called LCD
@@ -30,7 +29,7 @@ LiquidCrystal LCD(11,10,9,2,3,4,5);  //Create Liquid Crystal Object called LCD
 #define echoPin 12 //Sensor Trip pin connected to Arduino pin 12
 
 //Simple program just for testing the HC-SR04 Ultrasonic Sensor with LCD dispaly 
-//URL:
+
 
 void setup() 
 {  
